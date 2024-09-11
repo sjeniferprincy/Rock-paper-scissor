@@ -1,0 +1,26 @@
+body{
+  background-color: rgba(0, 0, 0, 0.937);
+  color: white;
+  font-family: arial;
+}
+p.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+button.move{
+  border-radius: 70px;
+  padding: 15px;
+  background: transparent;
+  border-color: white;
+  border-style: solid;
+  margin-right: 10px;
+}
+p{
+  margin-top: 50px;
+}
+button{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

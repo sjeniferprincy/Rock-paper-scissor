@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock paper scissor</title>
+  <link rel="stylesheet" href="C:\Users\HP\Desktop\princy\SimpleDev\styles\10.Rock-paper-scissor.css">
+
+</head>
+<body>
+  <p class="title">Rock Paper Scissor</p>
+  <button onclick="
+     playGame('rock');
+        " class="move"><img src="C:\Users\HP\Desktop\princy\SimpleDev\images\rock-emoji.png" width="80px"></button>
+
+  <button onclick="
+        playGame('paper');
+    "class="move"><img src="C:\Users\HP\Desktop\princy\SimpleDev\images\paper-emoji.png" width="80px"></button>
+
+
+  <button onclick="
+         playGame('scissor'); 
+        "class="move"><img src="C:\Users\HP\Desktop\princy\SimpleDev\images\scissors-emoji.png" width="80px"></button>
+
+<p class="js-result"></p>
+<p class="js-moves"></p>
+<p class="js-score"></p>
+
+
+<button onclick="
+score.wins=0;
+score.losses=0;
+score.ties=0;
+localStorage.removeItem('score');
+updateScoreElement();
+">Reset Score</button>
+
+<button>Auto play</button>
+<script src="C:\Users\HP\Desktop\princy\SimpleDev\script\10.Rock-paper-scissors.js"></script>
+</body>
+
+</html>
